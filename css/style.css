@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+.block_text {
+    color: rgb(7, 7, 39);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serifs;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+a {
+    padding: 10px;
+    cursor: pointer;
+}
+a:hover {
+    color: rgb(0, 255, 157);
+}
+a:active {
+    color: rgb(6, 6, 128);
+}
+
+table {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    border: 1px solid black;
+}
