@@ -49,7 +49,7 @@ document.body.append(table);
 for (let i = 0; i < 10; i++) {
     let tr = document.createElement("tr");
     table.appendChild(tr);
-    for (let t = 0; t <= 10; t++) {
+    for (let t = 0; t < 10; t++) {
         let td = document.createElement("td");
         tr.appendChild(td);
         td.innerText = i === 0 ? t + 1 : (i * 10) + t;
